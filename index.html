@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="main-title">У самурая нет цели, только путь!</h1>
+      <!-- !ROW 1 -->
+      <div class="row">
+        <div class="row__item-1">
+          <div class="row__item-1_number">1</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">display: flex</p>
+              <p class="subTtitle">display: -webkit-flex</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> запуск механизма Flexbox
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> flex / inline-flex
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row__item-2">
+          <div class="row__item-2_info">
+            <div class="row__item-2_info-1 info-1">
+              <div class="row__item-2_info-col col-1"></div>
+              <div class="row__item-2_info-col col-1"></div>
+              <div class="row__item-2_info-col col-1"></div>
+            </div>
+            <p>flex</p>
+          </div>
+          <div class="row__item-2_info">
+            <div class="row__item-2_info-1 info-1">
+              <div class="row__item-2_info-col col-1"></div>
+              <div class="row__item-2_info-col col-1"></div>
+              <div class="row__item-2_info-col col-1"></div>
+            </div>
+            <p>inline-flex</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ! ROW 2 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">2</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">flex-direction: row</p>
+              <p class="subTtitle">-webkit-flex-direction: row</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> назначения по укладке элементов по осям
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> row / row-reverse / column /
+                column-revers
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 -->
+        <div class="row2__item-2">
+          <div class="row2__item-2_info">
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__row">
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+              </div>
+              <p>row</p>
+            </div>
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__column">
+                <div class="row__item-2_info-col col-2"></div>
+                <div class="row__item-2_info-col col-2"></div>
+                <div class="row__item-2_info-col col-2"></div>
+              </div>
+              <p>column</p>
+            </div>
+          </div>
+          <div class="row2__item-2_info">
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__row-reverse">
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+              </div>
+              <p>row-reverse</p>
+            </div>
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__column-reverse">
+                <div class="row__item-2_info-col col-2"></div>
+                <div class="row__item-2_info-col col-2"></div>
+                <div class="row__item-2_info-col col-2"></div>
+              </div>
+              <p>column-reverse</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ! ROW 3 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">3</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">flex-wrap: nowrap</p>
+              <p class="subTtitle">-webkit-flex-wrap: nowrap</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> расположение элемпентов в одну или
+                несколько строк
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> nowrap / wrap / wrap-reverse
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 -->
+        <div class="row2__item-2">
+          <div class="row2__item-2_info">
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__nowrap">
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+              </div>
+              <p>nowrap</p>
+            </div>
+          </div>
+          <div class="row2__item-2_info">
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__wrap">
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+              </div>
+              <p>wrap</p>
+            </div>
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__wrap-reverse">
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+              </div>
+              <p>wrap-reverse</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ! ROW 4 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">4</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">flex-flow: row nowrap</p>
+              <p class="subTtitle">-webkit-flex-flow: row nowrap</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> сокрашённая запись для свойств
+                flex-direction и flex-wrap
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> см. свойства 2 и 3
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 is not used here-->
+      </div>
+
+      <!-- ! ROW 5 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">5</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">justify-content: flex-start</p>
+              <p class="subTtitle">-webkit-justify-content: flex-start</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> выравнивание flex-элементов по главной
+                оси текущей строки
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> flex-start / flex-end / center
+                / space-beetwen / space-around
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 -->
+        <div class="row2__item-2">
+          <div class="row2__item-2_info">
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__flex-start">
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+              </div>
+              <p>flex-start</p>
+            </div>
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__flex-center">
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+              </div>
+              <p>center</p>
+            </div>
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__flex-around">
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+              </div>
+              <p>space-around</p>
+            </div>
+          </div>
+          <div class="row2__item-2_info">
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__flex-end">
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+              </div>
+              <p>flex-end</p>
+            </div>
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__flex-between">
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+                <div class="row__item-2_info-col col-1"></div>
+              </div>
+              <p>space-between</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ! ROW 6 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">6</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">align-items: stretch</p>
+              <p class="subTtitle">-webkit-align-items: stretch</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> выравнивание flex-элементов вдоль
+                поперечной оси
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> stretch / flex-start / flex-end
+                / center / baseline
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 -->
+        <div class="row2__item-2">
+          <div class="row2__item-2_info">
+            <div class="row2__item-2_info-inner">
+              <div
+                class="row2__item-2_info-example padding-x example__align-stretch"
+              >
+                <div class="row__item-2_info-col col-3"></div>
+                <div class="row__item-2_info-col col-3"></div>
+                <div class="row__item-2_info-col col-3"></div>
+              </div>
+              <p>stretch</p>
+            </div>
+            <div class="row2__item-2_info-inner">
+              <div
+                class="row2__item-2_info-example padding-x example__align-end"
+              >
+                <div class="row__item-2_info-col col-2"></div>
+                <div class="row__item-2_info-col col-2"></div>
+                <div class="row__item-2_info-col col-2"></div>
+              </div>
+              <p>flex-end</p>
+            </div>
+            <div class="row2__item-2_info-inner">
+              <div
+                class="row2__item-2_info-example padding-x example__align-baseline"
+              >
+                <div class="row__item-2_info-col col-1">
+                  <span>1</span>
+                </div>
+                <div class="row__item-2_info-col col-1">
+                  <span>2</span>
+                </div>
+                <div class="row__item-2_info-col col-1">
+                  <span>3</span>
+                </div>
+                <div class="row__item-2_info-col col-1">
+                  <span>4</span>
+                </div>
+              </div>
+              <p>baseline</p>
+            </div>
+          </div>
+          <div class="row2__item-2_info">
+            <div class="row2__item-2_info-inner">
+              <div
+                class="row2__item-2_info-example padding-x example__align-start"
+              >
+                <div class="row__item-2_info-col col-2"></div>
+                <div class="row__item-2_info-col col-2"></div>
+                <div class="row__item-2_info-col col-2"></div>
+              </div>
+              <p>flex-start</p>
+            </div>
+            <div class="row2__item-2_info-inner">
+              <div class="row2__item-2_info-example example__align-center">
+                <div class="row__item-2_info-col col-2"></div>
+                <div class="row__item-2_info-col col-2"></div>
+                <div class="row__item-2_info-col col-2"></div>
+              </div>
+              <p>space-between</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ! ROW 7 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">7</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">align-content: stretch</p>
+              <p class="subTtitle">-webkit-align-content: stretch</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> выравнивание строк flex-элементов вдоль
+                поперечной оси
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> stretch / flex-start / flex-end
+                / center / space-between / space-around
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 -->
+        <div class="row2__item-2">
+          <div class="row2__item-2_info">
+            <div class="row2__item-2_info-inner">
+              <div
+                class="row2__item-2_info-example padding-x example__align-content-stretch"
+              >
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+              </div>
+              <p>stretch</p>
+            </div>
+            <div class="row2__item-2_info-inner">
+              <div
+                class="row2__item-2_info-example padding-x example__align-content-end"
+              >
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+              </div>
+              <p>flex-end</p>
+            </div>
+            <div class="row2__item-2_info-inner">
+              <div
+                class="row2__item-2_info-example padding-x-5 example__align-content-beetwen"
+              >
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+              </div>
+              <p>space-beetwen</p>
+            </div>
+          </div>
+
+          <div class="row2__item-2_info">
+            <div class="row2__item-2_info-inner">
+              <div
+                class="row2__item-2_info-example padding-x example__align-content-start"
+              >
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+              </div>
+              <p>flex-start</p>
+            </div>
+
+            <div class="row2__item-2_info-inner">
+              <div
+                class="row2__item-2_info-example padding-x example__align-content-center"
+              >
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+              </div>
+              <p>center</p>
+            </div>
+
+            <div class="row2__item-2_info-inner">
+              <div
+                class="row2__item-2_info-example padding-x-5 example__align-content-around"
+              >
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+                <div class="row__item-2_info-col col-4"></div>
+              </div>
+              <p>space-around</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="main-title">свойства flex-элементов</h1>
+
+      <!-- ! ROW 8 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">1</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">order: 0</p>
+              <p class="subTtitle">-webkit-order: 0</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> определения порядка расстановки
+                flex-элементов
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> (целое число)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 -->
+        <div class="row2__item-2">
+          <div class="row2__item-2_info">
+            <div class="row3__item-2_info-inner">
+              <span class="row3__item-span">order: 0</span>
+              <span class="row3__item-span">order: 1</span>
+              <div class="row3__item-2_info-example padding-x">
+                <div class="row3__item-2_info-col col-5 order-0">1</div>
+                <div class="row3__item-2_info-col col-5 order-1">2</div>
+                <div class="row3__item-2_info-col col-5 order-3">3</div>
+                <div class="row3__item-2_info-col col-5 order-0">4</div>
+                <div class="row3__item-2_info-col col-5 order-2">5</div>
+              </div>
+              <span class="row3__item-span">order: -1</span>
+              <span class="row3__item-span">order: 0</span>
+              <span class="row3__item-span">order: 2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ! ROW 9 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">1</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">flex-grow: 0</p>
+              <p class="subTtitle">-webkit-flex-grow: 0</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> указывает фактор растягивания
+                flex-элементов
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> (целое неотрицательное число)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 -->
+        <div class="row2__item-2">
+          <div class="row2__item-2_info">
+            <div class="row3__item-2_info-inner text-center">
+              <div class="row3__item-2_info-example padding-x">
+                <div class="row3__item-2_info-col col-5">1</div>
+                <div class="row3__item-2_info-col col-5">2</div>
+                <div class="row3__item-2_info-col col-5">3</div>
+                <div class="row3__item-2_info-col col-5 flex-grow-1">4</div>
+                <div class="row3__item-2_info-col col-5">5</div>
+              </div>
+              <span class="row3__item-span">flex-grow: 1</span>
+            </div>
+            <div class="row3__item-2_info-inner text-center">
+              <div class="row3__item-2_info-example padding-x">
+                <div class="row3__item-2_info-col col-5">1</div>
+                <div class="row3__item-2_info-col col-5">2</div>
+                <div class="row3__item-2_info-col col-5">3</div>
+                <div class="row3__item-2_info-col col-5 flex-grow-3">4</div>
+                <div class="row3__item-2_info-col col-5">5</div>
+              </div>
+              <span class="row3__item-span">flex-grow: 3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ! ROW 10 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">1</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">flex-shrink: 1</p>
+              <p class="subTtitle">-webkit-flex-shrink: 1</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> указывает фактор сужения flex-элементов
+              </p>
+              <p class="title"><span>возможные значения:</span> 0</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 -->
+        <div class="row2__item-2">
+          <div class="row2__item-2_info">
+            <div class="row3__item-2_info-inner text-center">
+              <div class="row3__item-2_info-example padding-x">
+                <div class="row3__item-2_info-col col-5">1</div>
+                <div class="row3__item-2_info-col col-5 flex-shrink-1">2</div>
+                <div class="row3__item-2_info-col col-5">3</div>
+                <div class="row3__item-2_info-col col-5">4</div>
+                <div class="row3__item-2_info-col col-5">5</div>
+              </div>
+              <span class="row3__item-span">flex-shrink: 1</span>
+            </div>
+            <div class="row3__item-2_info-inner text-center">
+              <div class="row3__item-2_info-example padding-x">
+                <div class="row3__item-2_info-col col-5">1</div>
+                <div class="row3__item-2_info-col col-5 flex-shrink-0">2</div>
+                <div class="row3__item-2_info-col col-5">3</div>
+                <div class="row3__item-2_info-col col-5">4</div>
+                <div class="row3__item-2_info-col col-5">5</div>
+              </div>
+              <span class="row3__item-span">flex-shrink: 0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ! ROW 11 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">1</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">flex-bases: auto</p>
+              <p class="subTtitle">-webkit-flex-bases: auto</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> указывает исходный главный размер
+                flex-элементов
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> длинна эллемента в пикселях (к
+                примеру: 240px)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 -->
+        <div class="row2__item-2">
+          <div class="row2__item-2_info">
+            <div class="row3__item-2_info-inner text-center">
+              <div class="row3__item-2_info-example padding-x">
+                <div class="row3__item-2_info-col col-5">1</div>
+                <div class="row3__item-2_info-col col-5 flex-bases-auto">2</div>
+                <div class="row3__item-2_info-col col-5">3</div>
+                <div class="row3__item-2_info-col col-5">4</div>
+                <div class="row3__item-2_info-col col-5">5</div>
+              </div>
+              <span class="row3__item-span">flex-bases: auto</span>
+            </div>
+            <div class="row3__item-2_info-inner text-center">
+              <div class="row3__item-2_info-example padding-x">
+                <div class="row3__item-2_info-col col-5">1</div>
+                <div class="row3__item-2_info-col col-5 flex-bases-px">2</div>
+                <div class="row3__item-2_info-col col-5">3</div>
+                <div class="row3__item-2_info-col col-5">4</div>
+                <div class="row3__item-2_info-col col-5">5</div>
+              </div>
+              <span class="row3__item-span">flex-bases: 80px</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ! ROW 12 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">1</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">flex: 0 1 auto</p>
+              <p class="subTtitle">-webkit-flex: 0 1 auto</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> сокрашенная запись для свойста
+                flex-grlow, flex-shrink и flex-bases
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> см.свойста 2, 3 и 4
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 -->
+      </div>
+
+      <!-- ! ROW 8 -->
+      <div class="row margin-x">
+        <!-- ! ITEM 1 -->
+        <div class="row__item-1">
+          <div class="row__item-1_number">1</div>
+          <div class="row__item-1_info">
+            <div class="row__item-1_info-1">
+              <p class="title">align-self: auto</p>
+              <p class="subTtitle">-webkit-align-self: auto</p>
+            </div>
+            <div class="row__item-1_info-2">
+              <p class="title">
+                <span>назначение:</span> переопределяет выравнивание элемента по
+                умолчанию
+              </p>
+              <p class="title">
+                <span>возможные значения:</span> auto / flex-start / flex-end /
+                center / baseline / stretch
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! ITEM 2 -->
+        <div class="row2__item-2">
+          <div class="row2__item-2_info">
+            <div class="row3__item-2_info-inner">
+              <span class="row3__item-span margin-left"
+                >align-self: flex-start</span
+              >
+              <div class="row3__item-2_info-example padding-x">
+                <div class="row3__item-2_info-col col-5">1</div>
+                <div class="row3__item-2_info-col col-5 flex-align-self-end">
+                  2
+                </div>
+                <div class="row3__item-2_info-col col-5">3</div>
+                <div class="row3__item-2_info-col col-5 flex-align-self-start">
+                  4
+                </div>
+                <div class="row3__item-2_info-col col-5">5</div>
+              </div>
+              <span class="row3__item-span">align-self: flex-end</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
